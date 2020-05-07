@@ -1,0 +1,90 @@
+
+.actionable:hover {
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#reviews-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#review-tiles {
+  max-height: 90vh;
+  max-width: 60vw;
+  padding: 0 20px 20px 20px;
+  overflow: auto;
+}
+
+.recommend {
+  padding: 5px 0;
+}
+
+.photos-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-photo {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 5px;
+}
+
+.full-size-parent {
+  text-align: center;
+}
+
+.full-size-photo {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* #review-tiles::-webkit-scrollbar {
+  display: none;
+} */
+
+
+/*** features breakdown ***/
+
+#features-breakdown {
+  margin-top: 20px;
+}
+
+.slider-section {
+  padding-top: 7px;
+}
+
+.char-name {
+  margin-bottom: -4px;
+}
+
+.meaning {
+  margin-top: -7px;
+}
+
+/******/
+
+.char-radio-row {
+  margin-top: 10px;
+}
+
+.char-radio {
+  margin-top: -20px;
+}
+
+.add-input {
+  margin-top: 20px;
+}
+
+.filter-option:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+#errors {
+  color: red;
+}

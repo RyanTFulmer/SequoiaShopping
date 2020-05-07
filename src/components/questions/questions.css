@@ -1,0 +1,13 @@
+.answersExpand {
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.questionsExpand {
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.is-clickable:hover {
+  cursor: pointer;
+}
