@@ -21,10 +21,9 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node server/server.js",
+    "postinstall": "npm run build",
     "eject": "react-scripts eject",
-    "test": "cd test && jest",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
